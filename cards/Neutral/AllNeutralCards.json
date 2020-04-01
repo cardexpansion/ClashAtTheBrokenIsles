@@ -1,0 +1,11 @@
+{
+   "directory":"cards/Neutral/",
+   "cards":[
+      {
+         "cardLink": "CorruptedDarkscale.json",
+         "artSource": "http://cards.hearthcards.net/ab543c2a.png",
+         "cardType": "CardNormal"
+      }
+	  
+   ]
+}

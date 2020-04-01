@@ -1,0 +1,18 @@
+{
+	"name": "Corrupted Darkscale",
+	"text": "<b>Battlecry:</b> If you control a Demon, draw a Murloc from your deck.",
+	"flavor": "Insert this card's flavour text here.",
+	"cardClass": "Neutral",
+	"rarity": "Epic",
+	"type": "Minion",
+	"cost": 1,
+	"attack": 2,
+	"health": 1,
+	"tribe": "Murloc",
+	
+	"tokenLinks": [ ],
+	"tokenTypes": [ ],
+	
+	"cardSource": "http://cards.hearthcards.net/ab543c2a.png",
+	"artSource": "insert original art source"	
+}

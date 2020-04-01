@@ -1,0 +1,15 @@
+{
+	"name": "Azurewing Guardian",
+	"text": "<b>Battlecry:</b> <b>Freeze</b> a minion and those adjacent to it.",
+	"flavor": "Insert this card's flavour text here.",
+	"cardClass": "Mage",
+	"rarity": "Common",
+	"type": "Minion",
+	"cost": 5,
+	"attack": 3,
+	"health": 5,
+	"tribe": "Dragon",
+	
+	"cardSource": "http://cards.hearthcards.net/99bfe696.png",
+	"artSource": "insert original art source"	
+}
