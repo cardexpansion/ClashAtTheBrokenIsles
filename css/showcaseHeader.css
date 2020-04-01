@@ -1,0 +1,64 @@
+.footer
+{
+	background-color: #444444;
+}
+
+.headerClassIcon
+{
+	width: 60px;
+	height: 60px;
+	z-index: 4;
+	position:relative;
+	float:left;	
+	display: inline-block;
+}
+.classHeader
+{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	z-index: 4;
+	display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.menuButton
+{
+	height: 50px;
+	width: auto;
+	background-color: red;
+	z-index: 4;
+	position:relative;
+	float:left;	
+	display: inline-block;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	margin-left: 5px;
+	margin-right: 5px;
+	
+	background-color: #AAAAAA;
+	box-shadow: 4px 4px #000000;
+	border: none;
+}
+.menuButton:focus
+{
+	background-color: #888888;
+	outline:0;
+}
+
+.menuButtonLink
+{
+	display: inline-block;
+	z-index: 4;
+}
+.menusHeader
+{
+	height: auto;
+	width: auto;
+	display: block;
+	z-index: 4;
+	display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+	padding-top: 20px;
+	
+}

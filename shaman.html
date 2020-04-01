@@ -1,0 +1,95 @@
+<head>
+		<title> Expansion Name </title>		
+		<meta charset = "UTF-8"/>
+		<meta name="keywords" content="Hearthstone,CustomHearthstone,Fanmade,Legion,Expansion,Demon,Artifact">
+		
+		<link rel="stylesheet" type="text/css" href="css/card.css" />
+		<link rel="stylesheet" type="text/css" href="css/cardGallery.css" />
+		<link rel="stylesheet" type="text/css" href="css/frontCard.css" />
+		<link rel="stylesheet" type="text/css" href="css/backgroundImage.css" />
+		<link rel="stylesheet" type="text/css" href="css/textContent.css" />		
+		<link rel="stylesheet" type="text/css" href="css/showcaseHeader.css" />		
+		<link rel="stylesheet" type="text/css" href="css/startAnimationFade.css" />		
+		
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap" rel="stylesheet">
+
+		
+		<script src="js/frontCard.js"></script>
+		<script src="js/loadCard.js"></script>
+		<script src="js/onResizeEvents.js"></script>
+		<script src="js/setCardGallerySize.js"></script>
+		<script src="js/onLoad.js"></script>
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>			
+		
+	</head>
+	
+	<body onresize='onResize()' style='background-color: black;' onload='onLoadCall()'>			
+		
+		<div id="startAnimation"> </div>
+		
+		<div class="pageData">								
+			<div class="contentSection">
+				<img class="backgroundImage" src="textures/ClassSpecific/Shaman/Background.jpg"/>	
+
+				<div class="transitionGradient"> </div>				
+			</div>
+				
+			<div class="contentSection">
+				<div class="textContent">
+					</br>
+					</br>
+				</div>
+			</div>
+			
+			<div class="contentSection" id="cardGallerySizeComparisment">
+				<img class="backgroundImage" src="textures/ClassSpecific/Shaman/Background2.jpg"/>
+				
+				<div class="transitionGradient"> </div>
+				
+				<div class="fullContainerContent">									
+					
+					<div id="cardGallery" class="cardGallery">
+						<div id="cardGalleryWrapper" class="cardGalleryWrapper">															
+							
+						</div>		
+					</div>	
+					
+				</div>
+			</div>			
+			
+			<div class="contentSection footer">
+				<div class="transitionGradient"> </div>
+								
+				<div class="menusHeader">						
+					<button class="menuButton" onclick="window.location.href = 'index.html';"> Home </button>
+					<button class="menuButton" onclick="window.location.href = 'neutral.html';"> Cards </button>
+					<button class="menuButton" onclick="window.location.href = 'about.html'"> About </button>
+				
+				</div>
+				
+				<div class="classHeader">
+					<a href="druid.html"><img src="textures/ClassIcons/DruidIcon.png" class="headerClassIcon"/></a> 
+					<a href="hunter.html"><img src="textures/ClassIcons/HunterIcon.png" class="headerClassIcon"/></a>
+					<a href="mage.html"><img src="textures/ClassIcons/MageIcon.png" class="headerClassIcon"/></a>
+					<a href="paladin.html"><img src="textures/ClassIcons/PaladinIcon.png" class="headerClassIcon"/></a>
+					<a href="priest.html"><img src="textures/ClassIcons/PriestIcon.png" class="headerClassIcon"/></a>
+					<a href="rogue.html"><img src="textures/ClassIcons/RogueIcon.png" class="headerClassIcon"/></a>
+					<a href="shaman.html"><img src="textures/ClassIcons/ShamanIcon.png" class="headerClassIcon"/></a>
+					<a href="warlock.html"><img src="textures/ClassIcons/WarlockIcon.png" class="headerClassIcon"/></a>
+					<a href="warrior.html"><img src="textures/ClassIcons/WarriorIcon.png" class="headerClassIcon"/></a>
+				</div>
+			</div>	
+			
+		</div>								
+		
+		<script>
+		
+			onResize();
+			loadClass("cards/Shaman/AllShamanCards.json");
+		
+		</script>
+		
+	</body>
+		
+	</body>
