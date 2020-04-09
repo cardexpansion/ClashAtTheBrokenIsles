@@ -5,6 +5,7 @@
 	left: 0;
 	text-align: center;
 	z-index: 4;
+	width: 100%;
 }
 .textContent
 {
@@ -31,4 +32,16 @@
 {
 	color: white;
 	position: absolute;`
+	bottom: 0;
+	left: 0;
+	z-index: 10;
+	color: #00AAFF;
+}
+a:link, a:visited, a:hover
+{
+	color: #00AAFF;
+}
+a:active
+{
+	color: #0077BB;
 }
