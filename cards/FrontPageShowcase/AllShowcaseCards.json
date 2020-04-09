@@ -1,0 +1,31 @@
+{
+   "directory":"cards/FrontPageShowcase/",
+   "cards":[
+   
+	  {
+         "cardLink": "Barrierholder.json",
+         "artSource": "http://cards.hearthcards.net/f3da2985.png",
+         "cardType": "CardNormal"
+      },
+	  {
+         "cardLink": "PlanInAction.json",
+         "artSource": "http://cards.hearthcards.net/1d85d0b8.png",
+         "cardType": "CardNormal"
+      },
+      {
+         "cardLink": "Mephistroth.json",
+         "artSource": "http://cards.hearthcards.net/2d97504d.png",
+         "cardType": "CardLegendary"
+      },
+	  {
+         "cardLink": "CrystallineImp.json",
+         "artSource": "http://cards.hearthcards.net/5746cec1.png",
+         "cardType": "CardNormal"
+      },
+	  {
+         "cardLink": "Ebonchill.json",
+         "artSource": "http://cards.hearthcards.net/ec7ac126.png",
+         "cardType": "CardLegendaryWeapon"
+      }
+   ]
+}
